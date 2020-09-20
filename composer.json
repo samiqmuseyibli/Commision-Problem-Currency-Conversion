@@ -1,0 +1,21 @@
+{
+    "name": "samiq/currency_conversion",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Samig Museyibli",
+            "email": "samiqmuseyibli@gmail.com"
+        }
+    ],
+    "require": {
+        "formigone/php-chain": "^0.1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
